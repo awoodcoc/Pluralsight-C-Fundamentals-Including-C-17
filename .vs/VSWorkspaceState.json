@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\03",
+    "\\03\\demos",
+    "\\03\\demos\\Demo",
+    "\\03\\demos\\Demo\\Before",
+    "\\03\\demos\\Demo\\Before\\Hello",
+    "\\03\\demos\\Demo\\Before\\Hello\\Hello"
+  ],
+  "SelectedNode": "\\03\\demos\\Demo\\Before\\Hello\\Hello\\Hello.cpp",
+  "PreviewInSolutionExplorer": false
+}
