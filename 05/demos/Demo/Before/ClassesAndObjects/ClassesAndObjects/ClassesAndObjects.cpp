@@ -1,7 +1,7 @@
 // ClassesAndObjects.cpp : Defines the entry point for the console application.
 //
 
-#include "Person.h"
+// #include "Person.h"
 #include "Tweeter.h"
 #include "status.h"
 #include <iostream>
