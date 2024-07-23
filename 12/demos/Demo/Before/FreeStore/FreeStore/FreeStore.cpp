@@ -14,8 +14,20 @@ int main()
 	Resource* pResource = new Resource("created with new");
 	string newString = pResource->GetName();
 	int j =3;
+	if (j == 3)
+	{
+		return 0;
+	}
+
+	Resource* p2 = pResource;
+
 	delete pResource;
-	string string3 = pResource->GetName();
+	pResource = nullptr;
+	//string string2 = p2->GetName();
+	delete pResource;
+	delete p2;
+
+	//string string3 = pResource->GetName();
 
 	return 0;
 }
