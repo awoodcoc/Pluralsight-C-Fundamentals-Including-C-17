@@ -26,9 +26,9 @@ int main()
 	cout << rtKateGregcons.GetName() << endl;
 	cout << pKateGregcons->GetName() << endl;
 
-	//Person* Someone = new Tweeter("Someone", "Else", 567, "@someone");
-	//cout << Someone->GetName() << endl;
-	//delete Someone;
+	Person* Someone = new Tweeter("Someone", "Else", 567, "@someone");
+	cout << Someone->GetName() << endl;
+	delete Someone;
 
 
 

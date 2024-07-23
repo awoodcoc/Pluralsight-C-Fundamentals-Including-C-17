@@ -12,12 +12,12 @@ Tweeter::Tweeter(std::string first,
 }
 
 
-Tweeter::~Tweeter(void)
+Tweeter::~Tweeter()
 {
 }
 
 std::string Tweeter::GetName() const
 {
-	return firstname + " " + lastname + " " + twitterhandle;
+	return Person::GetName() + " " + twitterhandle;
 }
 

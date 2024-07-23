@@ -13,8 +13,11 @@ int main()
 {
 	Tweeter t("Kate","Gregory",123,"@gregcons");
 	Person* p = &t;
-	Tweeter* pt = p;
+	Tweeter* pt = static_cast<Tweeter*>(p);
 	cout << pt->GetName() << endl;
+
+	//int i = 3;
+	//Tweeter* pi = static_cast<Tweeter*>(&i);
 
 
 	Resource r("local");

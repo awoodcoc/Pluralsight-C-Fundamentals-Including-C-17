@@ -10,7 +10,7 @@ using std::endl;
 using std::shared_ptr;
 using std::make_shared;
 
-int Dummy(Person p) { return p.GetNumber(); }
+int Dummy(Person const& p) { return p.GetNumber(); }
 
 int main()
 {

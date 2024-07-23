@@ -12,7 +12,7 @@ public:
 		std::string last,
 		int arbitrary,
 		std::string handle);
-	~Tweeter(void);
+	~Tweeter();
 	std::string GetName() const;
 };
 
